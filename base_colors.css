@@ -24,3 +24,33 @@
 
   --light-scheme_red2: #c03545;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--dark-scheme_dark);
+    --bg2: var(--dark-scheme_dark1);
+    --fg: var(--dark-scheme_light);
+    --fg2: var(--dark-scheme_gray3);
+    --border: var(--dark-scheme_gray2);
+    --select: var(--dark-scheme_blue);
+    --error_fg: var(--dark-scheme_red);
+    --warn_fg: var(--dark-scheme_yellow);
+    --success_fg: var(--dark-scheme_green);
+    --base: var(--dark-scheme_purple);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: var(--light-scheme_light);
+    --bg2: var(--light-scheme_gray3);
+    --fg: var(--light-scheme_dark);
+    --fg2: var(--light-scheme_gray1);
+    --border: var(--light-scheme_gray2);
+    --select: var(--light-scheme_blue);
+    --error_fg: var(--light-scheme_red);
+    --warn_fg: var(--light-scheme_yellow);
+    --success_fg: var(--light-scheme_green);
+    --base: var(--light-scheme_purple);
+  }
+}
