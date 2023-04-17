@@ -1,1 +1,1 @@
-Цветовая палитра основана на тёмной и светлой темах для редактора vim
+Цветовая палитра основана на тёмной ([vim-github-dark](https://github.com/vv9k/vim-github-dark)) и светлой ([github-light.vim](https://github.com/romgrk/github-light.vim)) темах для редактора [vim](https://github.com/vim/vim)
